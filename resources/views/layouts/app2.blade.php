@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Moviepoint - Online Movie,Vedio and TV Show HTML Template</title>
 	<!-- Favicon Icon -->
-	<link rel="icon" type="image/png" href="img/favcion.png" />
+	<link rel="icon" type="image/webp" href="img/favcion.webp" />
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/old.bootstrap.min.css" media="all" />
@@ -40,6 +40,10 @@
 
 		.hero-area-content img:hover {
 			transform: scale(1.05);
+		}
+
+		.slider-big-img {
+			height: 550px;
 		}
 
 		.cinema-btn {
@@ -95,6 +99,33 @@
 			cursor: not-allowed;
 			background-color: #eb315a;
 		}
+
+		/* Media query for small screens (up to 576px) */
+		@media (max-width: 576px) {
+			.col-xs-12 {
+				flex: 0 0 100% !important;
+				max-width: 100% !important;
+				margin-bottom: 3%;
+			}
+
+			.text-center {
+				text-align: left !important;
+			}
+
+
+			.hero-area-slide {
+				margin-top: 80px !important;
+			}
+
+			.owl-stage-outer {
+				height: 500px;
+				overflow: visible !important;
+			}
+
+			.slider-big-img {
+				height: 400px !important;
+			}
+		}
 	</style>
 </head>
 
@@ -106,7 +137,7 @@
 		<div class="container">
 			<div class="header-area">
 				<div class="logo">
-					<a href="{{ url('/') }}"><img src="img/logo.png" alt="logo" /></a>
+					<a href="{{ url('/') }}"><img src="img/logo.webp" alt="logo" /></a>
 				</div>
 
 				<div class="menu-area">
@@ -300,9 +331,9 @@
 			<div class="row">
 				<div class="col-lg-3 col-sm-6">
 					<div class="widget">
-						<img src="img/logo.png" alt="about" />
-						<p>7th Harley Place, London W1G 8LZ United Kingdom</p>
-						<h6><span>Call us: </span>(+880) 111 222 3456</h6>
+						<img src="img/logo.webp" alt="about" />
+						<p>Singida, Singida Tanzania</p>
+						<h6><span>Call us: </span>(+255) 767 952 016</h6>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
@@ -376,7 +407,7 @@
 			elm.addEventListener("click", function() {
 
 				localStorage.setItem('seat', JSON.stringify(seats)); //Intialize seats as an empty ayyar in a local storage
-				
+
 				if (event.target.style.backgroundColor === 'red') {
 
 				} else if (event.target.style.backgroundColor === 'black') {

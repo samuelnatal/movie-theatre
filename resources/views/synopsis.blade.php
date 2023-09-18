@@ -164,9 +164,9 @@
 			</div>
 			<div class="col-lg-3 text-center text-lg-left">
 				<div class="portfolio-sidebar">
-					<img src="img/sidebar/sidebar1.png" alt="sidebar" />
-					<img src="img/sidebar/sidebar2.png" alt="sidebar" />
-					<img src="img/sidebar/sidebar4.png" alt="sidebar" />
+					<img src="img/sidebar/sidebar1.webp" alt="sidebar" />
+					<img src="img/sidebar/sidebar2.webp" alt="sidebar" />
+					<img src="img/sidebar/sidebar4.webp" alt="sidebar" />
 				</div>
 			</div>
 		</div>

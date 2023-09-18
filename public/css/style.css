@@ -26,13 +26,13 @@ Description: Online Movie,Vedio and TV Show HTML Template
 /*----------------------------------
 --------- THEME DEFAULT CSS --------
 ----------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900");
 body {
     line-height: 24px;
     font-size: 14px;
     color: #b6b7b9;
-	background: #13151f;
-	font-family: 'Poppins', sans-serif;
+    background: #13151f;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     position: relative;
 }
@@ -47,7 +47,7 @@ h4,
 h5,
 h6 {
     font-weight: 500;
-	color: #fff;
+    color: #fff;
 }
 h1,
 h2,
@@ -106,7 +106,7 @@ select:focus,
 select:active {
     box-shadow: none;
     border: 0;
-    outline: 0
+    outline: 0;
 }
 input:focus,
 textarea:focus,
@@ -114,11 +114,11 @@ select:focus,
 button:focus {
     outline: none;
 }
-button{
+button {
     cursor: pointer;
 }
 textarea {
-	height: 160px;
+    height: 160px;
 }
 input[type="text"],
 input[type="submit"],
@@ -145,8 +145,8 @@ textarea:focus {
 }
 .section-title h1 i {
     color: #fece50;
-	font-size: 40px;
-	margin-right: 5px;
+    font-size: 40px;
+    margin-right: 5px;
 }
 .mt-100 {
     margin-top: 100px;
@@ -158,13 +158,13 @@ textarea:focus {
     margin-top: 20px;
 }
 .pt-60 {
-	padding-top: 60px;
+    padding-top: 60px;
 }
 .pb-90 {
-	padding-bottom: 90px;
+    padding-bottom: 90px;
 }
 .pb-20 {
-	padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 .ptb-100 {
     padding: 100px 0;
@@ -202,7 +202,7 @@ textarea:focus {
 .owl-dot {
     width: 20px;
     height: 6px;
-	border-radius: 5px;
+    border-radius: 5px;
     background: #595a5f;
     display: inline-block;
     margin: 0 5px;
@@ -221,29 +221,47 @@ textarea:focus {
     vertical-align: middle;
 }
 .theme-btn {
-	background: #eb315a;
+    background: #eb315a;
     border: 1px solid #eb315a;
     color: #fff;
-	border-radius: 35px;
+    border-radius: 35px;
     padding: 5px 25px;
     display: inline-block;
     font-size: 16px;
-	cursor: pointer;
-	font-weight: 500;
+    cursor: pointer;
+    font-weight: 500;
 }
 .theme-btn:hover {
     border: 1px solid #eb315a;
-	background: transparent;
+    background: transparent;
     color: #eb315a;
 }
 .theme-btn2:hover,
 .theme-btn2 {
     color: #fff;
-	background: #963dad; /* Old browsers */
-	background: -moz-linear-gradient(top, #963dad 0%, #9c3db1 34%, #ba3fc4 65%, #c340ca 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #963dad 0%,#9c3db1 34%,#ba3fc4 65%,#c340ca 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #963dad 0%,#9c3db1 34%,#ba3fc4 65%,#c340ca 100%); 
-	border: none;
+    background: #963dad; /* Old browsers */
+    background: -moz-linear-gradient(
+        top,
+        #963dad 0%,
+        #9c3db1 34%,
+        #ba3fc4 65%,
+        #c340ca 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        top,
+        #963dad 0%,
+        #9c3db1 34%,
+        #ba3fc4 65%,
+        #c340ca 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        to bottom,
+        #963dad 0%,
+        #9c3db1 34%,
+        #ba3fc4 65%,
+        #c340ca 100%
+    );
+    border: none;
 }
 .flexbox-center {
     display: -moz-flex;
@@ -262,7 +280,7 @@ textarea:focus {
 }
 textarea,
 input,
-textarea::-webkit-input-placeholder ,
+textarea::-webkit-input-placeholder,
 input::-webkit-input-placeholder {
     color: #fff;
 }
@@ -271,17 +289,17 @@ input::-webkit-input-placeholder {
 -------- HEADER AREA CSS START --------
 ---------------------------------------*/
 .header {
-	padding: 18px 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 99;
+    padding: 18px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
 }
 .header-area {
     display: grid;
-    grid-template-rows: repeat(2,1fr);
-    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     align-items: center;
     grid-gap: 20px;
 }
@@ -290,7 +308,7 @@ input::-webkit-input-placeholder {
     grid-row: span 2;
     padding-right: 15px;
     position: relative;
-    bottom:27px;
+    bottom: 27px;
 }
 .header-right {
     grid-column: span 10;
@@ -299,7 +317,6 @@ input::-webkit-input-placeholder {
     align-items: center;
     width: 340px;
     height: 30px;
-
 }
 
 .menu-area {
@@ -310,32 +327,32 @@ input::-webkit-input-placeholder {
 }
 .mainmenu li {
     display: inline-block;
-	position: relative;
+    position: relative;
 }
 .mainmenu li a:not(.theme-btn) {
     display: inline-block;
-	margin-right: 30px;
-	padding: 3px 0;
+    margin-right: 30px;
+    padding: 3px 0;
 }
 .slicknav_menu {
-	padding: 0;
+    padding: 0;
     background: transparent;
 }
 .mainmenu {
     display: block;
 }
 .slicknav_menu {
-	display: none;
+    display: none;
 }
 .header.sticky {
-	border-bottom: 1px solid #fff;
-	background: #000;
+    border-bottom: 1px solid #fff;
+    background: #000;
 }
 .mainmenu li:hover ul {
     transform: scaleY(1);
 }
 .mainmenu li ul li {
-	display: block;
+    display: block;
 }
 .mainmenu li ul {
     position: absolute;
@@ -348,7 +365,8 @@ input::-webkit-input-placeholder {
     transform: scaleY(0);
     transition: all 0.4s;
 }
-.mainmenu li a.active, .mainmenu li a:hover {
+.mainmenu li a.active,
+.mainmenu li a:hover {
     color: #eb315a;
 }
 .header-right form {
@@ -367,31 +385,31 @@ input::-webkit-input-placeholder {
     padding-right: 10px;
 }
 option {
-	color: #000;
+    color: #000;
 }
 .header-right form select {
-    background: url('../img/select-icon.png') no-repeat right center;
+    background: url("../img/select-icon.webp") no-repeat right center;
     color: #fff;
     padding: 0 20px 0 30px;
     border: none;
-	-moz-appearance: none;
+    -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
 }
 
 .header-right form input {
     width: auto;
-	background: transparent;
-	color: #fff;
+    background: transparent;
+    color: #fff;
     border: none;
     margin: 0;
-    border-left: 1px solid #ddd;
+    /* border-left: 1px solid #ddd; */
     margin-left: 20px;
     width: 100%;
 }
 
 .header-right ul li a:hover {
-	color: #eb315a;
+    color: #eb315a;
 }
 .header-right ul li {
     padding: 8px 0 0;
@@ -407,7 +425,7 @@ option {
 ------------------------------------*/
 .hero-area {
     position: relative;
-    background-image: url('../img/hero-area.png');
+    background-image: url("../img/hero-area.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -415,7 +433,7 @@ option {
 }
 .hero-area-slide {
     background: #13151f;
-    margin: 320px 15px 50px;
+    margin: 150px 15px 50px;
     padding-top: 52px;
     box-shadow: 0 0 20px #000000;
 }
@@ -425,8 +443,8 @@ option {
     margin-top: -120px;
 }
 .hero-area-slider {
-	margin: auto;
-	max-width: 950px;
+    margin: auto;
+    max-width: 950px;
 }
 
 .author-review {
@@ -449,8 +467,8 @@ option {
 
 .single-slide-cast {
     width: 11.5%;
-	margin-right: 1%;
-	float: left;
+    margin-right: 1%;
+    float: left;
     margin-top: 15px;
 }
 
@@ -467,8 +485,8 @@ option {
     color: #eb315a;
 }
 .pr-50 {
-	padding-right: 10px;
-	margin-left: -15px;
+    padding-right: 10px;
+    margin-left: -15px;
 }
 .slide-trailor {
     overflow: hidden;
@@ -486,7 +504,7 @@ option {
     margin-right: 25px;
 }
 .hero-area-thumb .hero-area-slide {
-	margin: 0 15px;
+    margin: 0 15px;
 }
 .thumb-prev {
     position: absolute;
@@ -526,15 +544,15 @@ option {
 -------- portfolio AREA CSS START -------
 ------------------------------------*/
 hr {
-	margin: 0;
-	border-top: 1px solid #ddd;
+    margin: 0;
+    border-top: 1px solid #ddd;
 }
 .portfolio-menu {
-	padding-top: 30px;
+    padding-top: 30px;
 }
 
 .portfolio-area {
-	padding: 50px;
+    padding: 50px;
 }
 .portfolio-menu li {
     display: inline-block;
@@ -560,7 +578,8 @@ hr {
     color: #fff;
 }
 
-.portfolio-menu li.active::before,.portfolio-menu li:hover::before {
+.portfolio-menu li.active::before,
+.portfolio-menu li:hover::before {
     background: #eb315a;
 }
 .portfolio-content h2 {
@@ -572,22 +591,22 @@ hr {
 }
 .video-area,
 .single-portfolio-img {
-	overflow: hidden;
-	position: relative;
+    overflow: hidden;
+    position: relative;
 }
 .single-portfolio-img:hover .popup-youtube i {
-	opacity: 1;
+    opacity: 1;
 }
 .single-portfolio-img .popup-youtube i {
-	opacity: 0;
+    opacity: 0;
 }
 .video-area img,
 .single-portfolio-img img {
-	transition: 0.9s;
+    transition: 0.9s;
 }
 .video-area:hover img,
 .single-portfolio:hover img {
-	transform: scale(1.2);
+    transform: scale(1.2);
 }
 .single-portfolio .review {
     margin-bottom: 0;
@@ -595,7 +614,7 @@ hr {
 
 .portfolio-sidebar img {
     margin-top: 30px;
-	border-radius: 10px;
+    border-radius: 10px;
 }
 
 .portfolio-sidebar {
@@ -605,13 +624,12 @@ hr {
 --------- portfolio AREA CSS END --------
 -----------------------------------*/
 
-
 /*----------------------------------
 -------- video AREA CSS START -------
 ------------------------------------*/
 .video-area {
     position: relative;
-	margin-top: 35px;
+    margin-top: 35px;
 }
 
 .popup-youtube i:hover {
@@ -622,7 +640,7 @@ hr {
     width: 60px;
     height: 60px;
     line-height: 60px;
-	color: #fff;
+    color: #fff;
     border: 2px solid #fff;
     border-radius: 50%;
     text-align: center;
@@ -641,7 +659,7 @@ hr {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: rgba(19,21,31,0.6);
+    background: rgba(19, 21, 31, 0.6);
     padding: 20px 35px;
     width: 100%;
 }
@@ -657,8 +675,8 @@ hr {
 -------- news AREA CSS START -------
 ------------------------------------*/
 .single-news {
-	position: relative;
-	color: #fff;
+    position: relative;
+    color: #fff;
 }
 .news-content {
     position: absolute;
@@ -667,35 +685,53 @@ hr {
     right: 420px;
 }
 .news-bg-1 {
-	background: url('../img/news/news1.jpg') no-repeat center / cover;
+    background: url("../img/news/news1.webp") no-repeat center / cover;
     height: 350px;
 }
 .news-bg-2 {
-	background: url('../img/news/news2.jpg') no-repeat center / cover;
+    background: url("../img/news/news2.webp") no-repeat center / cover;
     height: 350px;
 }
 .news-bg-3 {
-	background: url('../img/news/news3.jpg') no-repeat center / cover;
+    background: url("../img/news/news3.webp") no-repeat center / cover;
     height: 350px;
 }
 .news-date {
-	position: absolute;
-	left: 60px;
-	top: 0;
-	background: #f09819; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #f09819 0%, #ef8128 34%, #ec474c 64%, #eb315a 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg, #f09819 0%,#ef8128 34%,#ec474c 64%,#eb315a 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg, #f09819 0%,#ef8128 34%,#ec474c 64%,#eb315a 100%);
-	padding: 20px;
+    position: absolute;
+    left: 60px;
+    top: 0;
+    background: #f09819; /* Old browsers */
+    background: -moz-linear-gradient(
+        -45deg,
+        #f09819 0%,
+        #ef8128 34%,
+        #ec474c 64%,
+        #eb315a 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        -45deg,
+        #f09819 0%,
+        #ef8128 34%,
+        #ec474c 64%,
+        #eb315a 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        135deg,
+        #f09819 0%,
+        #ef8128 34%,
+        #ec474c 64%,
+        #eb315a 100%
+    );
+    padding: 20px;
 }
 .news-date h2 span {
-	font-size: 16px;
+    font-size: 16px;
 }
 .news-content > h2 {
     margin-bottom: 15px;
 }
 
-.news-slider .single-news{
+.news-slider .single-news {
     max-width: 950px;
     margin: 50px auto 0;
 }
@@ -736,9 +772,9 @@ hr {
 --------- footer AREA CSS START --------
 -----------------------------------*/
 .footer {
-	background: url('../img/footer-bg.png') no-repeat bottom center / cover;
+    background: url("../img/footer-bg.webp") no-repeat bottom center / cover;
     position: relative;
-	padding: 90px 0 30px;
+    padding: 90px 0 30px;
 }
 .footer::before {
     position: absolute;
@@ -750,7 +786,8 @@ hr {
     height: 100%;
     opacity: 0.9;
 }
-.widget h4,.widget img {
+.widget h4,
+.widget img {
     margin-bottom: 40px;
 }
 
@@ -788,17 +825,17 @@ hr {
 ------------------------------------*/
 .breadcrumb-area {
     position: relative;
-    background-image: url('../img/breadcrumb.png');
+    background-image: url("../img/breadcrumb.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-	padding: 280px 0 200px;
+    padding: 280px 0 200px;
 }
 .breadcrumb-area-content {
-	text-align: center;
+    text-align: center;
 }
 .breadcrumb-area-content h1 {
-	font-size: 60px;
+    font-size: 60px;
 }
 
 .transformers-box {
@@ -846,7 +883,7 @@ hr {
 
 .transformers-right .theme-btn {
     margin: 0 8px;
-	padding: 2px 15px;
+    padding: 2px 15px;
 }
 
 .transformers-bottom {
@@ -870,7 +907,7 @@ hr {
     border-radius: 5px 0 0;
 }
 
-.details-content >div {
+.details-content > div {
     margin-top: 30px;
 }
 
@@ -880,7 +917,7 @@ hr {
     padding-bottom: 50px;
 }
 
-.details-content >div h2 {
+.details-content > div h2 {
     margin-bottom: 20px;
 }
 
@@ -906,10 +943,10 @@ hr {
     position: relative;
 }
 .textarea-container button {
-	color: #fff;
-	background: transparent;
-	font-size: 20px;
-	border: none;
+    color: #fff;
+    background: transparent;
+    font-size: 20px;
+    border: none;
 }
 .textarea-container button,
 .select-container i {
@@ -925,7 +962,7 @@ hr {
 
 .details-comment a {
     flex: 1;
-	text-align: center;
+    text-align: center;
 }
 
 .details-comment p {
@@ -945,7 +982,7 @@ hr {
 }
 
 .thumb-text {
-	flex: 5;
+    flex: 5;
 }
 
 .details-thumb {
@@ -954,11 +991,11 @@ hr {
 
 .details-thumb > div h4,
 .details-thumb > div i {
-	transition: 0.4s;
+    transition: 0.4s;
 }
 .details-thumb > div:hover h4,
 .details-thumb > div:hover i {
-	color: #eb315a
+    color: #eb315a;
 }
 .details-thumb-next {
     text-align: right;
@@ -980,8 +1017,8 @@ hr {
     left: 0;
     right: 0;
     height: 100%;
-	display: none;
-    background: rgba(0,0,0,0.4);
+    display: none;
+    background: rgba(0, 0, 0, 0.4);
     z-index: 99;
     color: #171717;
 }
@@ -989,7 +1026,7 @@ hr {
 .buy-ticket-area {
     margin-top: 140px;
     background: #f5f5f5;
-	box-shadow: 0 0 5px #222;
+    box-shadow: 0 0 5px #222;
     position: relative;
     padding: 100px 120px 120px;
 }
@@ -1020,15 +1057,15 @@ hr {
 
 .ticket-box-table {
     display: flex;
-	padding-top: 35px;
-	justify-content: space-between;
+    padding-top: 35px;
+    justify-content: space-between;
 }
 
 .ticket-table-seat td.active,
 .ticket-table-seat td:hover {
-	background: #eb315a;
-	border-color: #eb315a;
-	color: #fff;
+    background: #eb315a;
+    border-color: #eb315a;
+    color: #fff;
 }
 .ticket-table-seat td {
     width: 19px;
@@ -1039,7 +1076,7 @@ hr {
     line-height: 15px;
     border-collapse: collapse;
     margin: 3px;
-	font-size: 10px;
+    font-size: 10px;
     display: inline-block;
 }
 
@@ -1048,13 +1085,13 @@ hr {
 }
 
 .ticket-box-available span {
-	display: inline-block;
-	margin-right: 30px;
+    display: inline-block;
+    margin-right: 30px;
 }
 .ticket-box-available input {
-	margin-right: 5px;
-	position: relative;
-	top: 2px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
 }
 .ticket-box-available {
     margin: 50px 0;
@@ -1107,11 +1144,11 @@ hr {
     left: 0;
     right: 0;
     margin: auto;
-	display: none;
+    display: none;
     height: 100%;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 99;
-	padding: 0 15px;
+    padding: 0 15px;
 }
 
 .login-box {
@@ -1146,7 +1183,8 @@ hr {
     margin-bottom: 20px;
 }
 
-.login-box h6 {}
+.login-box h6 {
+}
 
 .login-box h6 {
     color: #03090e;
@@ -1155,8 +1193,8 @@ hr {
 
 .login-box input {
     margin-bottom: 20px;
-	background: transparent;
-	border: 1px solid #ddd;
+    background: transparent;
+    border: 1px solid #ddd;
 }
 
 .login-signup {
@@ -1174,8 +1212,8 @@ hr {
 .login-box form .theme-btn {
     width: 100%;
     border-radius: 0;
-	color: #fff;
-	text-align: center;
+    color: #fff;
+    text-align: center;
     margin-top: 5px;
 }
 
@@ -1215,10 +1253,10 @@ hr {
 -------- blog PAGE CSS START -------
 ------------------------------------*/
 .blog-area {
-	padding-top: 30px;
+    padding-top: 30px;
 }
 .blog-area .single-news {
-	margin-top: 70px;
+    margin-top: 70px;
 }
 /*----------------------------------
 --------- blog PAGE CSS END --------
@@ -1228,13 +1266,14 @@ hr {
 -------- blog details PAGE CSS START -------
 ------------------------------------*/
 .news-details a i {
-	margin-right: 5px;
+    margin-right: 5px;
 }
 .news-details > h2 {
     margin: 30px 0 5px;
 }
 
-.news-details > h2 + a,.news-details > h2 + a + a {
+.news-details > h2 + a,
+.news-details > h2 + a + a {
     margin-right: 10px;
     display: inline-block;
 }
@@ -1245,7 +1284,7 @@ hr {
 
 .news-details .details-thumb {
     border-top: 1px solid #ddd;
-	padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .news-details .details-comment {
@@ -1253,7 +1292,7 @@ hr {
 }
 
 .news-details .details-reply {
-	margin-top: 25px;
+    margin-top: 25px;
 }
 .news-details .details-reply h2 {
     margin-bottom: 25px;
@@ -1295,15 +1334,90 @@ hr {
 -------- Pre Loader Style START --------
 ---------------------------------------*/
 #preloader {
-  position: fixed;
-  z-index: 99999999999;
-  top: 0;
-  left: 0;
-  overflow: visible;
-  width: 100%;
-  height: 100%;
-  background: #fff url("../img/loader.gif") no-repeat center center;
+    position: fixed;
+    z-index: 99999999999;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    background: #fff url("../img/loader.gif") no-repeat center center;
 }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .ticket-box-table {
+        max-width: 100% !important; /* Set a fixed width for the container */
+        height: 200px; /* Set a fixed height for the container */
+        border: 1px solid #ccc;
+        overflow-x: scroll; /* Enable horizontal scrolling if needed */
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        white-space: nowrap; /* Prevent child divs from wrapping */
+        flex-wrap: nowrap !important;
+    }
+
+    .ticket-table-seat {
+        display: inline-block; /* Make child divs display in a row */
+        width: 170px !important; /* Set a fixed width for each child div */
+        height: 100%; /* Take the full height of the container */
+        background-color: #f0f0f0;
+        margin-right: 10px; /* Add some space between child divs */
+    }
+
+    .header-right form button {
+        position: relative;
+        top: -2.8em;
+        left: 42%;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .ticket-box-table {
+        max-width: 100% !important; /* Set a fixed width for the container */
+        height: 200px; /* Set a fixed height for the container */
+        border: 1px solid #ccc;
+        overflow-x: scroll; /* Enable horizontal scrolling if needed */
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        white-space: nowrap; /* Prevent child divs from wrapping */
+        flex-wrap: nowrap !important;
+    }
+
+    .ticket-table-seat {
+        display: inline-block; /* Make child divs display in a row */
+        width: 170px !important; /* Set a fixed width for each child div */
+        height: 100%; /* Take the full height of the container */
+        background-color: #f0f0f0;
+        margin-right: 10px; /* Add some space between child divs */
+    }
+    .header-right form button {
+        position: relative;
+        top: -2.8em;
+        left: 42%;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-right form button {
+        position: relative;
+        top: -2.8em;
+        left: 42%;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+
 /*--------------------------------------
 --------- Pre Loader Style END ---------
 ---------------------------------------*/

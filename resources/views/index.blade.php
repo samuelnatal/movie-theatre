@@ -10,7 +10,7 @@
 				<div class="col-lg-6 col-md-5">
 					<div class="hero-area-content ">
 
-						<img style="height:550px" src="{{ Storage::url($slides[$i]->image) }}" alt="portfolio" />
+						<img class="slider-big-img" src="{{ Storage::url($slides[$i]->image) }}" alt="portfolio" />
 
 						<a href="{{ $slides[$i]->trailer }}" class="popup-youtube">
 							<i style="bottom:90px" class="icofont icofont-ui-play"></i>
@@ -35,22 +35,22 @@
 						<h3>Cast:</h3>
 						<div class="slide-cast">
 							<div class="single-slide-cast">
-								<img src="img/cast/cast1.png" alt="about" />
+								<img src="img/cast/cast1.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast3.png" alt="about" />
+								<img src="img/cast/cast3.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast4.png" alt="about" />
+								<img src="img/cast/cast4.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast5.png" alt="about" />
+								<img src="img/cast/cast5.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast6.png" alt="about" />
+								<img src="img/cast/cast6.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast7.png" alt="about" />
+								<img src="img/cast/cast7.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast text-center">
 								5+
@@ -73,7 +73,7 @@
 			<div class="row hero-area-slide">
 				<div class="col-lg-6">
 					<div class="hero-area-content">
-						<img src="img/slide3.png" alt="about" />
+						<img src="img/slide3.webp" alt="about" />
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -93,25 +93,25 @@
 						<h3>Cast:</h3>
 						<div class="slide-cast">
 							<div class="single-slide-cast">
-								<img src="img/cast/cast1.png" alt="about" />
+								<img src="img/cast/cast1.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
 								<img src="img/cast/cast2.html" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast3.png" alt="about" />
+								<img src="img/cast/cast3.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast4.png" alt="about" />
+								<img src="img/cast/cast4.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast5.png" alt="about" />
+								<img src="img/cast/cast5.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast6.png" alt="about" />
+								<img src="img/cast/cast6.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast7.png" alt="about" />
+								<img src="img/cast/cast7.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast text-center">
 								5+
@@ -129,7 +129,7 @@
 			<div class="row hero-area-slide">
 				<div class="col-lg-6">
 					<div class="hero-area-content">
-						<img src="img/slide1.png" alt="about" />
+						<img src="img/slide1.webp" alt="about" />
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -149,25 +149,25 @@
 						<h3>Cast:</h3>
 						<div class="slide-cast">
 							<div class="single-slide-cast">
-								<img src="img/cast/cast1.png" alt="about" />
+								<img src="img/cast/cast1.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
 								<img src="img/cast/cast2.html" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast3.png" alt="about" />
+								<img src="img/cast/cast3.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast4.png" alt="about" />
+								<img src="img/cast/cast4.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast5.png" alt="about" />
+								<img src="img/cast/cast5.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast6.png" alt="about" />
+								<img src="img/cast/cast6.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast">
-								<img src="img/cast/cast7.png" alt="about" />
+								<img src="img/cast/cast7.webp" alt="about" />
 							</div>
 							<div class="single-slide-cast text-center">
 								5+
@@ -247,7 +247,7 @@
 						<a href="/synopsis?movieID={{ $slide->movieID }}">
 							<div class="single-portfolio">
 								<div class="single-portfolio-img">
-									<img src="img/portfolio/portfolio2.png" style='width:300px; height:400px' alt="portfolio" />
+									<img src="img/portfolio/portfolio2.webp" style='width:300px; height:400px' alt="portfolio" />
 									<a href="https://www.youtube.com/watch?v=RZXnugbhw_4" class="popup-youtube">
 										<i class="icofont icofont-ui-play"></i>
 									</a>
@@ -301,10 +301,10 @@
 			</div>
 			<div class="col-lg-3 text-center text-lg-left">
 				<div class="portfolio-sidebar">
-					<img src="img/sidebar/sidebar1.png" alt="sidebar" />
-					<img src="img/sidebar/sidebar2.png" alt="sidebar" />
-					<img src="img/sidebar/sidebar3.png" alt="sidebar" />
-					<img src="img/sidebar/sidebar4.png" alt="sidebar" />
+					<img src="img/sidebar/sidebar1.webp" alt="sidebar" />
+					<img src="img/sidebar/sidebar2.webp" alt="sidebar" />
+					<img src="img/sidebar/sidebar3.webp" alt="sidebar" />
+					<img src="img/sidebar/sidebar4.webp" alt="sidebar" />
 				</div>
 			</div>
 		</div>
@@ -329,28 +329,28 @@
 			<div class="carousel-inner">
 
 				<div class="carousel-item active">
-					<div class="row row-cols-1 row-cols-md-3 g-4">
-						<div class="col">
+					<div class="row ">
+						<div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="card h-100">
-								<img src="img/services/popcorn.jpg" class="card-img-top " style="height:300px;" alt="...">
+								<img src="img/services/popcorn.webp" class="card-img-top " style="height:300px;" alt="...">
 								<div class="card-body">
 									<h5 class="card-title">PopCorns</h5>
 									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col">
+						<div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="card h-100">
-								<img src="img/services/bugger.jpg" class="card-img-top" alt="..." style="height:300px;">
+								<img src="img/services/bugger.webp" class="card-img-top" alt="..." style="height:300px;">
 								<div class="card-body">
 									<h5 class="card-title">Bites</h5>
 									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col">
+						<div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="card h-100">
-								<img src="img/services/beer.jpeg" class="card-img-top " alt="..." style="height:300px;">
+								<img src="img/services/beer.webp" class="card-img-top " alt="..." style="height:300px;">
 								<div class="card-body">
 									<h5 class="card-title">Cold & Hot Drinks</h5>
 									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -361,28 +361,28 @@
 				</div>
 
 				<div class="carousel-item">
-					<div class="row row-cols-1 row-cols-md-3 g-4">
-						<div class="col">
+					<div class="row ">
+						<div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="card h-100">
-								<img src="img/services/food.jpg" class="card-img-top" alt="..." style="height:300px;">
+								<img src="img/services/food.webp" class="card-img-top" alt="..." style="height:300px;">
 								<div class="card-body">
 									<h5 class="card-title">Food</h5>
 									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col">
+						<div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="card h-100">
-								<img src="img/services/juice.jpg" class="card-img-top" alt="..." style="height:300px;">
+								<img src="img/services/juice.webp" class="card-img-top" alt="..." style="height:300px;">
 								<div class="card-body">
 									<h5 class="card-title">Juices</h5>
 									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col">
+						<div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
 							<div class="card h-100">
-								<img src="img/services/coffee.png" class="card-img-top" alt="..." style="height:300px;">
+								<img src="img/services/coffee.webp" class="card-img-top" alt="..." style="height:300px;">
 								<div class="card-body">
 									<h5 class="card-title">Hot Coffee</h5>
 									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>

@@ -18,7 +18,7 @@
             <div class="row flexbox-center">
                 <div class="col-lg-4 text-center text-lg-left">
                     <div class="section-title">
-                        <img src="img/footer-bg.png" alt="" />
+                        <img src="img/footer-bg.webp" alt="" />
                     </div>
                 </div>
                 <div class="col-lg-8 text-center text-lg-left theatre-dv">
