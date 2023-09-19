@@ -466,7 +466,7 @@
 				//Start of the ajax call to retrieve all the booked seats and set their background to red
 				var xhr = new XMLHttpRequest();
 
-				xhr.open('GET', 'http://localhost:8000/seats?scheduleID=' + scheduleID, true);
+				xhr.open('GET', 'https://mp.samuelnatal.com/seats?scheduleID=' + scheduleID, true);
 
 				xhr.onreadystatechange = function() {
 					if (this.readyState == 4 && this.status == 200) {
