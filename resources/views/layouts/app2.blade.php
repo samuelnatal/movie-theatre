@@ -28,7 +28,7 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
-	<script src="https://www.paypal.com/sdk/js?client-id=AYZEPyvVfKL7CxchT6JRy2SnQHEBNySi81n0KeKAoTcIfX7y6V9eCNp_UV7HfTU_eyokbvDVkxC3L_wO&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+	<script src="https://www.paypal.com/sdk/js?client-id=AdyeomsAW_I80tgXJkidCk4hUgu9SBM6IhFm-MB8_Ol6N-j5bC55Q0jzKyrH5aa6WbrtOwLezwEOURp-&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
 
 	<style>
 		.hero-area-content img {
